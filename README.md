@@ -21,7 +21,8 @@ Präsentation: https://canva.link/5pkqlfakx89zx7t
 4. Tippe dann ein [git clone https://github.com/cladensk334/Menden_S26_clean.git ~/Menden_S26_clean]
 
 **Branches:**
-main (mit Ordnerstrukur), dev ("test" branch um nicht das "orginal" im main zu schrotten), datenbereinigung, datenimport, datenvisualiserung, deskriptive analyse, model 
+main (mit Ordnerstrukur), dev ("test" branch um nicht das "orginal" im main zu schrotten), datenbereinigung, datenimport?, datenvisualiserung, deskriptive analyse, model
+Hierraus können weitere Branches je nach Temperatur/Wind/Wetter entstehen
 
 **Regeln:**
 1. Jeder Uplaod wird direkt in den richtigen Ordner im dev, dann main (ausnahme am Anfang) hochgeladen 
