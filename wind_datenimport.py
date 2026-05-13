@@ -11,7 +11,7 @@ Original file is located at
 # DATEN LADEN – DWD Würzburg
 # Zeitreihen: Wind (Kenia) | Luftdruck (Jonas) | Temperatur (Clara)
 # Quelle: DWD CDC Open Data Server
-# Cutoff: 01.05.2026
+# Cutoff: 01.01.2026
 # ============================================================
 
 import io
@@ -24,7 +24,7 @@ from datetime import date
 # ── Konfiguration ─────────────────────────────────────────────
 STATION_ID = "05705"
 BASE_URL   = "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/"
-CUTOFF     = date(2026, 5, 1)   # Festes Stoppdatum: 01.05.2026
+CUTOFF     = date(2026, 1, 1)   # Festes Stoppdatum: 01.05.2026
 
 
 # ── Hilfsfunktionen ───────────────────────────────────────────
