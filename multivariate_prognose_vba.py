@@ -125,7 +125,7 @@ DATA_END  = pd.Timestamp("2026-01-01")
 # Beste Modelle aus univariater Analyse
 BEST_MODELS = {
     "Wind (Kenia)":       (1, 1, 1),
-    "Luftdruck (Jonas)":  (3, 1, 2),
+    "Luftdruck (Jonas)":  (3, 1, 1),
     "Temperatur (Clara)": (1, 1, 2),
 }
 
@@ -200,7 +200,7 @@ print("\n=== Schritt 2: Gemeinsames Modell für alle 3 Zeitreihen ===\n")
 
 common_results = []
 
-for p, q in product(range(3), range(1, 4)):
+for p, q in product(range(4), range(1, 4)):
     order = (p, 1, q)
     series_rmses = []
     all_ok = True
