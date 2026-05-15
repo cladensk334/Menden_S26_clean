@@ -12,7 +12,7 @@ Was gemacht werden muss:
 + Code der zusammenfasst
 + Code der Daten bereinigt (nullwerte raus, nur relevante spalten behalten) 
 + Code für den split nur test und train der am ende des Jahres abschneidet (zb letztes Jahr) -> hier habe ich anpassungen gemacht, da es nicht sinnvoll ist am ende des Jahres abzuspalten. Wir wollen ja nur eine kurze Zeit prognostizien und nicht 30% (aka 18 Jahre !!! Das voll unnötig und ungenau und nicht für ARIMA geeignet) -> deswegen machen wir keinen 70/30 split sondern 61 Jahre/30 Tage
-- welches arima model passt am besten auf alle drei Zeitreihen
++ welches arima model passt am besten auf alle drei Zeitreihen
 -> Wie bauen wir ein das alte Daten weniger relevanz haben als neue Daten Thema Klimawandel/Landesveränderung ect... ?
 
 - Hilfsfunktionen wenn nötig, Loop
