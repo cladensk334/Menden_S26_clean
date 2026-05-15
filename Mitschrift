@@ -1,0 +1,10 @@
+Modelle die man für die gemeinsame Aufgabe nutzen kann: 
+- VAR nehmen
+- oder andere aktuelle: NHITS, NIXTLA -> time GPT
+
+Test tabelle 
+ links: VAR(2), ARIMA(3,1,1), NIXTLA, Chronos
+ oben: MSE, RMSE, MAE, MAPE
+
+
+ minimum ist ein ARIMA pro Zeitreihe und VAR für alle drei 
