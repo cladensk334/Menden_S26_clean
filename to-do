@@ -10,7 +10,7 @@ Feedback Vorstelleung:
 
 Was gemacht werden muss
 + Code der zusammenfasst
-- Code der Daten bereinigt (nullwerte raus, nur relevante spalten behalten) 
++ Code der Daten bereinigt (nullwerte raus, nur relevante spalten behalten) 
 - Code für den split nur test und train der am ende des Jahres abschneidet (zb letztes Jahr)
 - welches arima model passt am besten auf alle drei Zeitreihen
 - Hilfsfunktionen wenn nötig, Loop
