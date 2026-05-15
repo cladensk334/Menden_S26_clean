@@ -7,3 +7,16 @@ Feedback Vorstelleung:
 - Branches: dev, dann Datenvisualisierung ect mit temperatur als unterpunkt
 - Cleanes Respiratory (neu ?) um einmal alles clean zu halten ? 
 - nächste woche reflektion wie das geklappt hat (hier anfangen mit commit commentaren -> audführlicher ect) 
+
+Was gemacht werden muss
++ Code der zusammenfasst
+- Code der Daten bereinigt (nullwerte raus, nur relevante spalten behalten) 
+- Code für den split nur test und train der am ende des Jahres abschneidet (zb letztes Jahr)
+- welches arima model passt am besten auf alle drei Zeitreihen
+- Hilfsfunktionen wenn nötig, Loop
+- VAR Model, NIXTLA, Chronos
+- RSME, MAE, MSE, MAPE
+- Tabelle die alles Zusammenfasst 
+-Prognose
+- Präsentation mit Screenshots
+? Branches Mergen dev -> main 
