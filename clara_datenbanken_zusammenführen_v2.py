@@ -75,3 +75,13 @@ print(f"Beobachtungen gesamt: {len(df)}")
 for name, frame in [('Wind', df_wind), ('Luftdruck', df_druck), ('Temperatur', df_temp)]:
     assert frame.isna().sum().sum() == 0, f"Noch NaN in {name}!"
 print("Alle Zeitreihen sind vollständig lückenfrei.")
+
+# Ausgabeverzeichnis (gleicher Ordner wie die Quelldateien)
+PATH_OUT = PATH_HIST.parent
+
+# Zeitreihen als CSV exportieren
+df_wind.to_csv(PATH_OUT / "wind_bereinigt.csv",  index_label="datum")
+df_druck.to_csv(PATH_OUT / "luftdruck_bereinigt.csv", index_label="datum")
+df_temp.to_csv(PATH_OUT / "temperatur_bereinigt.csv", index_label="datum")
+
+print(f"\nDateien gespeichert in: {PATH_OUT}")
