@@ -2,9 +2,17 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-# Konfiguration
-PATH_HIST   = Path("/Users/clara/Desktop/uni_dreck/Menden_S26/Wetter_Zeitreihe_Historisch_19470101_20241231_05705.txt")
-PATH_RECENT = Path("/Users/clara/Desktop/uni_dreck/Menden_S26/produkt_klima_tag_20241110_20260513_05705.txt")
+# Konfiguration - Pfade relativ zum Repo-Stammordner
+def _repo_root() -> Path:
+    p = Path().resolve()
+    for folder in [p, *p.parents]:
+        if (folder / ".git").is_dir():
+            return folder
+    return p
+
+ROOT        = _repo_root()
+PATH_HIST   = ROOT / "data" / "raw" / "Wetter_Zeitreihe_Historisch_19470101_20241231_05705.txt"
+PATH_RECENT = ROOT / "data" / "raw" / "produkt_klima_tag_20241110_20260513_05705.txt"
 
 FEHLWERTE = [-999, -999.0, '-999', '-999.0']
 
