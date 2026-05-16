@@ -57,8 +57,8 @@ df = (pd.concat([df_hist, df_recent], ignore_index=True)
 for col in ['FM', 'PM', 'TMK']:
     df[col] = pd.to_numeric(df[col], errors='coerce')
 
-# Ab 1965 beschränken
-df = df.loc['1965-01-01':]
+# Ab 1966-2026 beschränken
+df = df.loc['1966-01-01':'2026-01-11']
 
 # Zeitreihen extrahieren & bereinigen
 print('\n=== Datenbereinigung ===')
