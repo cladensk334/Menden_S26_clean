@@ -1,12 +1,19 @@
 ## Notwenidge python funktionen/ andere VS code Elemente**
 
-**Python** (Werden wahrscheinlich benutzt (stand 4.Mai))
+**Python** (stand 17.Mai)
 pandas
 numpy
 matplotlib
 statsmodels
 scipy
 jupyter
+scikit-learn
+pathlib
 
-**Weitere** (Sind wahrscheinlich wichtig (stand 4.Mai)) 
-wenn man möchte kann man einen venv Umgebung nutzen 
+**Weitere** 
+.gitignore — diese Einträge sind für Python-Projekte wichtig:
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.env
+*.pyc
