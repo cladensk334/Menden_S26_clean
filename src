@@ -5,7 +5,7 @@ pandas
 numpy
 matplotlib
 statsmodels
-pmdarima
+scipy
 jupyter
 scikit-learn
 pathlib
